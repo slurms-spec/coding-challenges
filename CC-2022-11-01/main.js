@@ -82,3 +82,61 @@ function updateLight(current){
 }
 
 console.log(updateLight('red')) /// works
+
+
+// now write an object using literal notation : 3 properties 3 methods
+
+let cat = {}
+
+cat.name = 'sidisi'
+cat.smell = true
+cat.colour = 'black'
+
+cat.makeNoise = function(){
+  console.log('RAOGAGHHHHH')
+}
+
+cat.fight = function(){
+  console.log('scratch')
+}
+
+cat.disruptDinner = function(){
+  console.log('scratch scratch DUMP')
+}
+
+//
+
+let sidisi = {
+  smell: true,
+  color: 'black',
+
+  fight() {
+    console.log(`SCRATCH`)
+  },
+
+
+
+  
+
+}
+
+// constructor : 
+
+function MyCats(name, color, smell){
+  this.name = name,
+  this.color = color,
+  this.smell = smell,
+
+  this.fight = ()=> {
+    console.log('scritch')
+  }
+}
+
+let Sidisi = new MyCats(sidisi, black, true )
+
+
+// class 
+
+class Makecat{
+  constructor(``)
+}
